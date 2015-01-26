@@ -1,5 +1,5 @@
 @echo off
-set zip="C:\Program Files\7-Zip\7z.exe"
+set zip="tools\7za.exe"
 set hour=%time:~0,2%
 if "%time:~0,1%"==" " set hour=0%time:~1,1%
 set dt=%date:~10,4%-%date:~4,2%-%date:~7,2%_%hour%%time:~3,2%
